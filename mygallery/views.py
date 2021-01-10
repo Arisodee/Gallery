@@ -21,4 +21,4 @@ def search_category(request):
 
     else:
         message = "You have not searched for any category"
-        return render(request,'search.html',{'message':message}.
+        return render(request,'search.html',{'message':message})
