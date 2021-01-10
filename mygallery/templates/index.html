@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{%block content%}
+{{ block.super}}
+<div class="container-fluid"
+    style="background-image: url('https://unsplash.com/photos/rBY_CjoyItM');  background-repeat: no-repeat; background-size: cover; height: 100vh;  background-position: center; text-align:center; overflow-x:hidden;">
+    <h1 style="  font-size:50px; margin-top:60px; color:rgb(229, 235, 233); font-family: 'Lobster Two', cursive;">My Gallery</h1> 
+    <p style="color: rgb(229, 235, 233);">A picture is worth a thousand words...
+    <br>
+    Welcome to The Gallery!
+    <br>
+    Let's Explore!!
+    </p>
+    <a href="{% url 'photos' %}" class="btn btn-info btn-small">View Photos</a>
+
+</div>
+{%endblock%}
