@@ -15,12 +15,12 @@ This is a web application that allows users to view some beautiful collection of
 
 
 ## Technologies Used
-    - Python 3.6
-    - Django MVC framework
-    - HTML, CSS and Bootstrap
-    - JavaScript
-    - Postgressql
-    - Heroku
+- Python 3.6
+- Django MVC framework
+- HTML, CSS and Bootstrap
+- JavaScript
+- Postgressql
+- Heroku
 
 ### Prerequisite
 This project requires a prerequisite understanding of the following:
@@ -41,25 +41,31 @@ Install dependancies that will create an environment for the app to run `pip3 in
     - psql
     - CREATE DATABASE mygallery;
 ####  .env file
-Create .env file and copy paste the following and fill in appropriately:
-
-    SECRET_KEY = '<Secret_key>'
-    DBNAME = 'gallery'
-    USER = '<Username>'
-    PASSWORD = '<password>'
-    DEBUG = True
+Create a file named`.env`  and copy paste the following filling-in where appropriate:
+```
+SECRET_KEY='rdtfyguihjohucbdsjnc'
+DEBUG=True
+DB_NAME='mygallery'
+DB_USER='<your database username>'
+DB_PASSWORD='<password to your database>'
+DB_HOST='127.0.0.1'
+MODE='dev'
+ALLOWED_HOSTS='.localhost', '.herokuapp.com', '.127.0.0.1'
+DISABLE_COLLECTSTATIC=1
+```
 #### Run initial Migration
-    python3.6 manage.py makemigrations gallery
-    python3.6 manage.py migrate
+python3.6 manage.py makemigrations gallery
+python3.6 manage.py migrate
+
 #### Run the app
-    python3.6 manage.py runserver
-    Open terminal on localhost:8000
+python3.6 manage.py runserver
+Open terminal on localhost:8000
 
 ## Known bugs
-No known bugs so far
+No known bugs at the moment
 
 ## Support and contact details
- Incase you come across errors, have any questions, ideas ,concerns, or want to contribute to the application, feel free to reach me at : arisodee@gmail.com
+Incase you come across errors, have any questions, ideas ,concerns, or want to contribute to the application, feel free to reach me at : arisodee@gmail.com
 
 ### License
 
