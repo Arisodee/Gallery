@@ -7,7 +7,7 @@ class Photos(models.Model):
     photo_category = models.ForeignKey('Category', on_delete=models.CASCADE, default='')
     photo = models.ImageField(upload_to = 'images/', default='image.jpg')
 
-    
+
     def save_photo(self):
         self.save()
 
@@ -20,15 +20,15 @@ class Photos(models.Model):
         return photo
 
     def update_image(self, Name=None, category=None):
-        self.name = Name if Name else self.Name
+        self.photo_title = Name if Name else self.Name
         self.photo_category = category if category else self.photo_category 
         self.save()
 
 
     def __str__(self):
-        return self.name
+        return self.photo_title
     
-    
+
 class Location(models.Model):
     location_name = models.CharField(max_length = 30)
 
