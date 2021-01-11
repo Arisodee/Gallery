@@ -5,3 +5,40 @@ body{
 .home{
     margin-left: 800px;
 }
+.landing{
+    background-image: url('https://images.unsplash.com/photo-1519458246479-6acae7536988?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100vh;  
+    background-position: center; 
+    text-align:center; 
+    overflow-x:hidden;
+}
+.home h1{
+    font-size:40px;
+    margin-top:60px; 
+    color:rgb(229, 235, 233); 
+    font-family: 'Redressed', cursive;
+}
+.home p{
+    color: rgb(229, 235, 233);
+    font-size: 24px;
+}
+
+.zoom:hover{
+    -ms-transform: scale(0.5);
+    /* IE 9 */
+    -webkit-transform: scale(0.5);
+    /* Safari 3-8 */
+    transform: scale(0.5);
+}
+.picha{
+    border: 2px solid gray;
+    margin: 2px;
+    padding: 10px;
+}
+
+.zoom img{
+    height: 250px;
+    width: 200px;
+}
