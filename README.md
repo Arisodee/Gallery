@@ -9,7 +9,7 @@ This is a web application that allows users to view some beautiful collection of
 - User can view images 
 - User can see all images per location they were taken
 - User can also search for images based categories
-- Admin can upload images from a django dashboard
+- Admin can upload images from the django dashboard
 
 * Link to Live Site [The Gallery](https://ariso-gallery.herokuapp.com/)
 
@@ -56,7 +56,7 @@ Create .env file and copy paste the following and fill in appropriately:
     Open terminal on localhost:8000
 
 ## Known bugs
-No known bugs so far. If found, send me an email
+No known bugs so far
 
 ## Support and contact details
  Incase you come across errors, have any questions, ideas ,concerns, or want to contribute to the application, feel free to reach me at : arisodee@gmail.com
