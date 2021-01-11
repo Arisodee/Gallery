@@ -16,7 +16,7 @@ class Photos(models.Model):
 
     @classmethod
     def search_by_photo_category(cls,search_term):
-        photo = cls.objects.filter(name__icontains = search_term)
+        photo = cls.objects.filter(photo_title__icontains = search_term)
         return photo
 
     def update_image(self, Name=None, category=None):
