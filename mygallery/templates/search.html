@@ -64,7 +64,7 @@
                         <div class="col-md-8">
                             <input type="text" value="https://perisgallery.herokuapp.com/media/{{photos.id}}"
                                 id="myInput">
-                            <button type="button" class="btn btn-info" onclick="myFunction()">Copy Link</button>
+                            <button type="button" class="btn btn-info" onclick="copyPaste()">Copy Link</button>
                         </div>
                         <div class="col-md-4">
                             <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
@@ -78,20 +78,6 @@
     </div>
     {% endfor %}
     {% endif %}
-
 </div>
-
-</div>
-
-
-<style>
-    .styled:hover {
-        -ms-transform: scale(0.5);
-        /* IE 9 */
-        -webkit-transform: scale(0.5);
-        /* Safari 3-8 */
-        transform: scale(0.5);
-    }
-</style>
 
 {% endblock %}
