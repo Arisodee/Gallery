@@ -1,4 +1,4 @@
-function myFunction() {
+function copyPaste() {
     var copyText = document.getElementById("myInput");
     copyText.select();
     copyText.setSelectionRange(0, 99999)
