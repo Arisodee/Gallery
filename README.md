@@ -11,7 +11,8 @@ This is a web application that allows users to view some beautiful collection of
 - User can also search for images based categories
 - Admin can upload images from the django dashboard
 
-* Link to Live Site [The Gallery](https://ariso-gallery.herokuapp.com/)
+### Link to Live Site 
+- [The Gallery](https://ariso-gallery.herokuapp.com/)
 
 
 ## Technologies Used
@@ -31,7 +32,7 @@ This project requires a prerequisite understanding of the following:
 
 ## Setup and installation
 
-#### Clone the Repo
+#### Clone the Repository
 ####  Activate virtual environment
 Create and activate virtual environment using python3.6 as default handler
     `python3.6 -m venv virtual && source virtual/bin/activate`
